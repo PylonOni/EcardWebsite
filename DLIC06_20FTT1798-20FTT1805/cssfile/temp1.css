@@ -1,0 +1,91 @@
+.shr{
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+}
+
+body{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#body{
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #85c285;
+  color: black;
+}
+
+/*.row{
+  background-color: white;*/
+}
+col
+
+div{
+  background-color: #85c285;
+}
+
+img{
+  padding-left: 330px;
+  padding-right: 20px;
+  text-align: justify;
+  margin-left:auto;
+  margin-right:auto;
+  float :none;
+}
+.preview-container {
+  background-color: #85c285;
+}
+
+.tmpl {
+  border: 1px solid #999;
+  border-radius: 10px;
+  background-color: #fef8dd;
+  color: #888;
+  text-align: center;
+  position: relative;
+}
+
+.tmpl .event-date {
+  font-family: 'Josefin Sans', sans-serif;
+  /*font-style: italic;*/
+  font-size: 20px;
+}
+
+.tmpl .recipient-name {
+  font-family: 'Josefin Sans', sans-serif;
+  font-style: italic;
+  font-size: 18px;
+}
+
+.tmpl .custom-msg p::first-letter {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 30px;
+  font-style: italic;
+  line-height: 0.7;
+}
+
+.tmpl .preview-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.favItem {
+  font-size: 10px;
+  padding: 5px;
+  margin-bottom: 5px;
+  border: 1px solid #999;
+  border-radius: 5px;
+}
+
+.preview-color {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  border: 1px solid black;
+}
+
+.draggable-img {
+  max-height: 50px;
+    max-width: 50px;
+}

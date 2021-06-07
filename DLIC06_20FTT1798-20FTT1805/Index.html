@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="vieport" content="with=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+    <link rel="stylesheet" href="css/webs.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="Index.html"><img src="img\nsipsg.png" alt="error"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-window-close" aria-hidden="true" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="Index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>GO PAPERLESS WITH DIGITAL CARDS</h1>
+        <p>NO PAPER? NO PROBLEM! We got yorr back (and card!)! We have a variety of themes for you to choose from. </p>
+          <a href="about.html" class="hero-btn">Visit Us To Know More</a>
+      </div>
+    </section>
+
+    <!--course-->
+    <section class="course">
+      <h1>Templates</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+      <div class="container">
+        <div class="card">
+          <div class="box">
+            <div class="content">
+              <h2>01</h2>
+              <h3>Formal</h3>
+              <p>Make your own Ecard with Preset Templete Provided,
+              good for formal meet up or having a party.</p>
+                <a href="Eformal.html">Template One</a>
+                <a href="Eformal2.html">Template Two</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+            <div class="box">
+              <div class="content">
+                <h2>02</h2>
+                <h3>Informal</h3>
+                <p>Make your own Ecard with Preset Templete Provided.
+                tired of formality, go with basic and quick</p>
+                  <a href="temp1.html">Template One</a>
+                  <a href="temp2.html">Template Two</a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+                <div class="box">
+                  <div class="content">
+                    <h2>03</h2>
+                    <h3>Corporate</h3>
+                    <p>Make your own Ecard with Preset Templete Provided
+                    good for business or important matter</p>
+                      <a href="CoperateEcard.html">Template One</a>
+                      <a href="temp3.html">Template Two</a>
+                  </div>
+                </div>
+              </div>
+      </div>
+
+
+
+<!--js toggle menu-->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu(){
+        navLinks.style.right = "0";
+      }
+      function hideMenu(){
+        navLinks.style.right = "-200px";
+      }
+
+    </script>
+  </body>
+</html>
